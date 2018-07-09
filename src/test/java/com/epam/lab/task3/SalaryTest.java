@@ -11,7 +11,7 @@ import org.junit.runner.Description;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-public class SalaryTest extends TestWatcher {
+public class SalaryTest {
     private static Person person;
     private static Salary salary;
     private final static double THE_SAME_VALUE = 0.00;
