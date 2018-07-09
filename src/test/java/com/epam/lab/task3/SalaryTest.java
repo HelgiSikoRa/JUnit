@@ -22,8 +22,8 @@ public class SalaryTest extends TestWatcher {
     public TestWatcher watchman = new TestWatcher() {
         @Override
         protected void failed(Throwable e, Description description) {
-            LOG.info(description.toString(), e);
-            //super.failed(e, description);
+            LOG.error(description.toString(), e);
+            super.failed(e, description);
         }
 
         @Override
